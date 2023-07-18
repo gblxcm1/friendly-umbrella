@@ -28,9 +28,7 @@ img{
 41%{left:-400vw}50%{left:-400vw}
 51%{left:-500vw}60%{left:-500vw}
 61%{left:-600vw}70%{left:-600vw}
-71%{left:-700vw}80%{left:-700vw}
-81%{left:-800vw}90%{left:-800vw}
-91%{left:-900vw}100%{left:-900vw}}
+71%{left:-700vw}80%{left:-700vw}}
     transform: rotate(-90deg) translateY(0);
   }
   100% {
