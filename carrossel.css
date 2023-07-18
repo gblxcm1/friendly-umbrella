@@ -1,39 +1,36 @@
-.carousel {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+*{
+    margin:0;padding:0
 }
+img{
+    height:100vh;width:100vw
 
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: rotate(-90deg) translateY(-100%);
-  animation: carousel 10s infinite;
 }
-
-@keyframes carousel {
-  0% {
-    transform: rotate(-90deg) translateY(-100%);
-  }
-  16.67% {
-    transform: rotate(-90deg) translateY(0);
-  }
-  33.33% {
-    transform: rotate(-90deg) translateY(0);
-  }
-  50% {
-    transform: rotate(-90deg) translateY(100%);
-  }
-  66.67% {
-    transform: rotate(-90deg) translateY(100%);
-  }
-  83.33% {
+.carrossel{
+    overflow:hidden;
+    height:100vh;
+    width:100vw
+}
+.carrossel ul{
+    display:flex;
+    list-style:none;
+    width:900vw;
+    height:100vh
+}
+.carrossel li{
+    position:relative;
+    animation:slide 100s infinite ease-in-out
+}
+@keyframes slide
+{0%{left:0}10%{left:0}
+11%{left:-100vw}20%{left:-100vw}
+21%{left:-200vw}30%{left:-200vw}
+31%{left:-300vw}40%{left:-300vw}
+41%{left:-400vw}50%{left:-400vw}
+51%{left:-500vw}60%{left:-500vw}
+61%{left:-600vw}70%{left:-600vw}
+71%{left:-700vw}80%{left:-700vw}
+81%{left:-800vw}90%{left:-800vw}
+91%{left:-900vw}100%{left:-900vw}}
     transform: rotate(-90deg) translateY(0);
   }
   100% {
