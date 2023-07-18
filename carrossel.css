@@ -21,14 +21,14 @@ img{
     animation:slide 100s infinite ease-in-out
 }
 @keyframes slide
-{0%{left:0}10%{left:0}
-11%{left:-100vw}20%{left:-100vw}
-21%{left:-200vw}30%{left:-200vw}
-31%{left:-300vw}40%{left:-300vw}
-41%{left:-400vw}50%{left:-400vw}
-51%{left:-500vw}60%{left:-500vw}
-61%{left:-600vw}70%{left:-600vw}
-71%{left:-700vw}80%{left:-700vw}}
+{0%{left:0}12.0%{left:0}
+12.5%{left:-100vw}25%{left:-100vw}
+26%{left:-200vw}37.5%{left:-200vw}
+38%{left:-300vw}50%{left:-300vw}
+51%{left:-400vw}62.5%{left:-400vw}
+63.5%{left:-500vw}75%{left:-500vw}
+76%{left:-600vw}87.5%{left:-600vw}
+88.5%{left:-700vw}100%{left:-700vw}}
     transform: rotate(-90deg) translateY(0);
   }
   100% {
