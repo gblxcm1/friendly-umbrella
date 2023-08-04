@@ -30,11 +30,7 @@ img{
 63.5%{left:-500vw}75%{left:-500vw}
 76%{left:-600vw}87.5%{left:-600vw}
 88.5%{left:-700vw}100%{left:-700vw}}
-    transform: rotate(-90deg) translateY(0);
-  }
-  100% {
-    transform: rotate(-90deg) translateY(0);
-  }
+ 
 @media screen and (max-width: 768px){
     img{
         width: 100%;
